@@ -1,0 +1,24 @@
+*{margin: 0;padding: 0;text-decoration: none;}
+
+header{position: fixed;width: 100%;height: 100px;background-color: black; opacity: 85%;
+  display: flex;justify-content: center;align-items: center;z-index: 999;}
+nav{width:1280px;height: 80px;border: 0px solid red;}
+header nav ul{display: flex;align-items: center;justify-content: center;}
+header nav ul li{list-style: none;color:white;margin: 10px 60px;
+  font-family: 'Noto Sans KR', sans-serif;font-size: 18px;letter-spacing: -0.3px;}
+.opc{opacity: 0.5;}
+.opc:hover{opacity: 1;transition: 0.2s; color: #E9AE3D;}
+
+.goods1{width: 1920px;height: 3600px;background-color: black; display: flex; justify-content: center;align-items: center;}
+.gd0_img{display: flex;align-items: center;position: absolute; width: 100%; height: 100%; left: 350px; top: 1250px; z-index: 1;}
+.gd1_img{left: 320px; top: 185px; position: absolute;}
+.gd2_img{left: 645px; top: 690px; position: absolute;}
+.gd3_img{left: 320px; top: 1385px; position: absolute;}
+.gd4_img{left: 960px; top: 1890px; position: absolute;}
+.gd5_img{left: 330px; top: 2395px; position: absolute;}
+.gd6_img{left: 960px; top: 2900px; position: absolute;}
+
+
+footer{background-color: black;width: 100%;height: 170px; position: absolute; bottom: 1900;}
+.footer_pfi{display: flex;justify-content: center;padding-top: 40px;}
+.footer_pft{display: flex;justify-content: center;color: #EAB246;padding-top: 15px;}
